@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+    <arg name = "drone_name" default="$(optenv RMTT_NAMESPACE /)" />
+    <group ns="$(arg drone_name)">
+        <node pkg="rmtt_driver" name="rmtt_driver" type="rmtt_driver.py" output="screen" />
+        <node pkg="rmtt_driver" name="Smoke_Detector_YOLOv8" type="Smoke_Detector_YOLOv8.py" output="screen" />
+        <node pkg="rmtt_driver" name="rmtt_flight" type="rmtt_flight.py" output="screen" />
+    </group>
+</launch>
