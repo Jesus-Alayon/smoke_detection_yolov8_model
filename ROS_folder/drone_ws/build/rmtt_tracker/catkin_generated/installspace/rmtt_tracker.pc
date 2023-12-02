@@ -1,0 +1,8 @@
+prefix=/home/jesus-alayon/drone_ws/install
+
+Name: rmtt_tracker
+Description: Description of rmtt_tracker
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
