@@ -1,0 +1,2 @@
+rmtt_apriltag:rmtt_description:rmtt_driver:rmtt_ros:rmtt_teleop:rmtt_tracker
+-DCATKIN_DEVEL_PREFIX=/home/jesus-alayon/drone_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jesus-alayon/drone_ws/install -G Unix Makefiles
